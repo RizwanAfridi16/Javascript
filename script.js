@@ -1,0 +1,11 @@
+var firstName ;
+var lastName ;
+var nameLetters;
+firstName = prompt("Hi, what's your first name?", "");
+alert ("That's a nice name, " + firstName);
+alert ("I think I'll shout it: " + firstName.toUpperCase());
+lastName = prompt("So what's your last name, " + firstName + "?");
+alert ("Oh. " + firstName + " " + lastName + ".");
+alert ("Sometimes called " + lastName + ", " + firstName);
+nameLetters = firstName.length + lastName.length;
+alert ("Did you know there are " + nameLetters + " letters in your name?");
